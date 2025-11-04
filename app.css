@@ -64,6 +64,11 @@ body {
   color: #495057;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -245,8 +250,13 @@ span {
   text-align: center;
   background-color: #339af0;
   width: 1000px;
+  margin: 0 auto;
   padding: 100px 200px;
   border-radius: 20px;
+}
+
+.cta-heading {
+  margin-bottom: 30px;
 }
 
 /* ---------- FOOTER SECTION ---------- */
