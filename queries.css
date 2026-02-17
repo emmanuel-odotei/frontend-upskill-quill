@@ -1,0 +1,72 @@
+/* LG - SMALL LAPTOPS: 1024px - 1280px */
+@media (max-width: 72rem) {
+    /* We want our page to break on 1150px */
+    /* 1150px / 16px = 72rem */
+    /* 72rem x 16px = 1152px */
+    
+    html {
+        /* 9px / 16px = 56.25% */
+        font-size: 56.25%;
+    }
+
+    .features-grid-container {
+        column-gap: 2rem;
+    }
+
+    .cta-section {
+        margin-bottom: 20rem;
+    }
+}
+
+/* MD - TABLETS: 768px - 1024px */
+@media (max-width: 51rem) {
+    /* We want our page to break on 815px */
+    /* 815px / 16px = 51rem */
+    /* 51rem x 16px = 816px */
+    
+    html {
+        /* 8px / 16px = 50% */
+        font-size: 50%;
+    }
+}
+
+/* SM - PHONE LANDSCAPE: 680px - 768px */
+@media (max-width: 43rem) {
+    /* We want our page to break on 680px */
+    /* 680px / 16px = 43rem */
+    /* 43rem x 16px = 688px */
+    
+    html {
+        /* 7px / 16px = 43.75% */
+        font-size: 43.75%;
+    }
+
+    .cta-card {
+        padding: 8rem 16rem;
+    }
+
+    .feature-section {
+        margin-bottom: 20rem;
+    }
+
+    .features-grid-container {
+        row-gap: 5rem;
+        column-gap: 0.5rem;
+    }
+}
+
+/* SM - PHONE PORTRAIT: <576px */
+@media (max-width: 34rem) {
+    /* We want our page to break on 530px */
+    /* 530px / 16px = 34rem */
+    /* 34rem x 16px = 544px */
+    
+    html {
+        /* 6px / 16px = 37.5% */
+        font-size: 37.5%;
+    }
+
+    .hero-heading-break {
+        display: none;
+    }
+}
