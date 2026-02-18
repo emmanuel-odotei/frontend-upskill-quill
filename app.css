@@ -253,6 +253,24 @@ span {
   width: 80px;
 }
 
+.chat-container {
+  height: 7rem;
+  width: 7rem;
+  background-color: var(--primary-tint);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.chat-icon {
+  height: 5rem;
+  width: 5rem;
+}
+
 /* -------------------------------- SECTIONS -------------------------------- */
 
 /* ---------- NAV BAR ---------- */
